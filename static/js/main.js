@@ -302,7 +302,7 @@ AtomicComponent.init = function() {
 
 module.exports = AtomicComponent;
 
-},{"../mixins/Events":3,"../utilities/dom-class-list":5,"../utilities/function-bind":7,"../utilities/object-assign":8,"../utilities/type-checkers":12,"dom-delegate":29}],2:[function(require,module,exports){
+},{"../mixins/Events":3,"../utilities/dom-class-list":5,"../utilities/function-bind":7,"../utilities/object-assign":8,"../utilities/type-checkers":12,"dom-delegate":20}],2:[function(require,module,exports){
 
 /* ==========================================================================
    Organism
@@ -1415,25 +1415,7 @@ var Expandable = require( './Expandable' );
 require( 'classlist-polyfill' );
 
 Expandable.init();
-},{"./Expandable":13,"classlist-polyfill":27}],15:[function(require,module,exports){
-arguments[4][1][0].apply(exports,arguments)
-},{"../mixins/Events":17,"../utilities/dom-class-list":19,"../utilities/function-bind":21,"../utilities/object-assign":22,"../utilities/type-checkers":23,"dom-delegate":29,"dup":1}],16:[function(require,module,exports){
-arguments[4][2][0].apply(exports,arguments)
-},{"../utilities/config":18,"./AtomicComponent":15,"dup":2}],17:[function(require,module,exports){
-arguments[4][3][0].apply(exports,arguments)
-},{"dup":3}],18:[function(require,module,exports){
-arguments[4][4][0].apply(exports,arguments)
-},{"dup":4}],19:[function(require,module,exports){
-arguments[4][5][0].apply(exports,arguments)
-},{"dup":5}],20:[function(require,module,exports){
-arguments[4][6][0].apply(exports,arguments)
-},{"dup":6}],21:[function(require,module,exports){
-arguments[4][7][0].apply(exports,arguments)
-},{"dup":7}],22:[function(require,module,exports){
-arguments[4][8][0].apply(exports,arguments)
-},{"dup":8}],23:[function(require,module,exports){
-arguments[4][12][0].apply(exports,arguments)
-},{"dup":12}],24:[function(require,module,exports){
+},{"./Expandable":13,"classlist-polyfill":18}],15:[function(require,module,exports){
 
 /* ==========================================================================
    Table Row Links
@@ -1489,7 +1471,7 @@ var TableRowLinks = {
 
 module.exports = TableRowLinks;
 
-},{"atomic-component/src/utilities/dom-closest":20}],25:[function(require,module,exports){
+},{"atomic-component/src/utilities/dom-closest":6}],16:[function(require,module,exports){
 
 /* ==========================================================================
    Table Sortablle
@@ -1698,7 +1680,7 @@ var TableSortable = {
 
 module.exports = TableSortable;
 
-},{"atomic-component/src/utilities/config":18,"atomic-component/src/utilities/dom-closest":20}],26:[function(require,module,exports){
+},{"atomic-component/src/utilities/config":4,"atomic-component/src/utilities/dom-closest":6}],17:[function(require,module,exports){
 
 /* ==========================================================================
    TableOrganism
@@ -1728,7 +1710,7 @@ TableOrganism.init();
 
 module.exports = TableOrganism;
 
-},{"./cf-table-row-links":24,"./cf-table-sortable":25,"atomic-component/src/components/Organism":16,"atomic-component/src/utilities/config":18}],27:[function(require,module,exports){
+},{"./cf-table-row-links":15,"./cf-table-sortable":16,"atomic-component/src/components/Organism":2,"atomic-component/src/utilities/config":4}],18:[function(require,module,exports){
 /*
  * classList.js: Cross-browser full element.classList implementation.
  * 2014-07-23
@@ -1971,7 +1953,7 @@ if ("document" in window.self) {
   }
 }
 
-},{}],28:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 /*jshint browser:true, node:true*/
 
 'use strict';
@@ -2402,7 +2384,7 @@ Delegate.prototype.destroy = function() {
   this.root();
 };
 
-},{}],29:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 /*jshint browser:true, node:true*/
 
 'use strict';
@@ -2423,7 +2405,7 @@ module.exports = function(root) {
 
 module.exports.Delegate = Delegate;
 
-},{"./delegate":28}],30:[function(require,module,exports){
+},{"./delegate":19}],21:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v1.11.3
  * http://jquery.com/
@@ -12776,7 +12758,7 @@ return jQuery;
 
 }));
 
-},{}],31:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 /* ==========================================================================
    JS
    ========================================================================== */
@@ -12790,4 +12772,4 @@ $(document).ready(function() {
   $('.cf-icon-external-link').append('<span class="u-visually-hidden"> Links to external site.</span>');
 });
 
-},{"cf-expandables":14,"cf-tables":26,"jquery":30}]},{},[31]);
+},{"cf-expandables":14,"cf-tables":17,"jquery":21}]},{},[22]);

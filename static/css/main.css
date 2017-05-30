@@ -1503,6 +1503,28 @@ figure {
 figure img {
   vertical-align: middle;
 }
+pre,
+code {
+  background: #f1f1f1;
+  border-radius: 4px;
+  color: #101820;
+  font-family: 'Input Mono', Consolas, Monaco, 'Courier New', monospace;
+}
+code {
+  display: inline-block;
+  padding: 0.23076923em 0.23076923em 0;
+  font-size: 0.8125em;
+}
+pre {
+  display: block;
+  padding: 0.625em 0.9375em;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+pre code {
+  padding: 0;
+  background-color: transparent;
+}
 /* ==========================================================================
    Capital Framework
    Button Styling
@@ -1521,6 +1543,7 @@ figure img {
   cursor: pointer;
   font-size: 1em;
   line-height: normal;
+  text-align: center;
   text-decoration: none;
   transition: background-color 0.1s;
 }
@@ -1635,6 +1658,12 @@ input.a-btn::-moz-focus-inner {
 .lt-ie8 input.a-btn__super {
   padding-top: 0.6em;
   padding-bottom: 0.6em;
+}
+@media only all and (max-width: 37.5em) {
+  .a-btn__full-on-xs {
+    display: block;
+    width: 100%;
+  }
 }
 .a-btn__link {
   padding: 0;
@@ -1933,6 +1962,18 @@ button.o-expandable_header {
 }
 .lt-ie9 .a-label__heading {
   font-weight: normal !important;
+}
+.a-multiselect {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 5.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border: 1px solid #b4b5b6;
+}
+.a-multiselect option {
+  padding: 0.125em 0.375em;
 }
 .a-select {
   position: relative;

@@ -863,6 +863,38 @@ Fill: #f1f2f2  (Grey 10)
 </div>
 
 
+## Multiselect
+
+<div class="content-66 content-first">
+
+</div>
+
+
+<div class="content-50 content-first">
+
+#### Default
+
+</div>
+
+<div class="content-50">
+
+{::nomarkdown}
+<div class="m-form-field m-form-field__select">
+    <label class="a-label" for="test_select__multiple">Label</label>
+    <select class="a-multiselect" id="test_select__multiple" multiple>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+        <option value="option4">Option 4</option>
+        <option value="option1">Option 5</option>
+        <option value="option2">Option 6</option>
+        <option value="option3">Option 7</option>
+        <option value="option4">Option 8</option>
+    </select>
+</div>
+{:/nomarkdown}
+
+</div>
 
 
 
